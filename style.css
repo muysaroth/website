@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: rgb(243, 202, 209); */
+  min-height: 460vh;
+  background-position: top;
+  background-size: 100%;
+  width: 100%;
+  background: url("https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Flower-Gift/importance-of-flowers-in-our-daily-life-cover-image.jpg")
+    no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-position-y: top;
+}
+.nav {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  height: 70px;
+  padding: 20px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav h3 {
+  padding-left: 13%;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}
+.nav h3 span {
+  color: palevioletred;
+}
+.list {
+  position: absolute;
+  left: 35%;
+  font-size: 20px;
+}
+.list ul li:hover {
+  color: palevioletred;
+}
+.list ul li {
+  display: inline-block;
+  margin: 0 10px;
+  color: rgb(16, 16, 16);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+}
+.icon {
+  position: absolute;
+  right: 10%;
+  font-size: 24px;
+  cursor: pointer;
+}
+.icon i {
+  margin: 0 5px;
+}
+.icon i:hover {
+  color: palevioletred;
+}
+.body {
+  width: 300px;
+  position: absolute;
+  margin: 130px 140px 0;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.body h5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(247, 90, 142);
+  font-size: 22px;
+  font-weight: 200;
+  padding: 5px 0;
+}
+.body p {
+  font-size: 18px;
+  font-weight: 100;
+  font-family: cursive;
+  padding: 5px 0;
+  color: rgb(139, 138, 138);
+}
+.body button {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.body button:hover {
+  background: palevioletred;
+  transition: 0.3s;
+}
+.about-us {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 400px;
+  top: 100%;
+}
+.about-us h2,
+span {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 0;
+}
+.about-us h2 {
+  color: rgb(230, 73, 125);
+}
+.about-us span {
+  color: black;
+}
+.video video {
+  position: absolute;
+  width: 400px;
+  height: 240px;
+  border: 0 7px solid rgb(255, 255, 255);
+  margin-left: 15%;
+  padding-top: 20px;
+}
+.about-us .des {
+  position: absolute;
+  margin-left: 50%;
+  width: 300px;
+  padding-top: 20px;
+}
+.about-us .des h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.about-us .des p {
+  color: rgb(126, 126, 126);
+  font-family: cursive;
+}
+.des button {
+  width: 100px;
+  height: 30px;
+  margin: 10px 0;
+  border-radius: 15px;
+  background-color: black;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.des button:hover {
+  background-color: palevioletred;
+  transition: 0.3s;
+}
+/*----------------- Menu --------------------*/
+#about {
+  border-bottom: 2px solid palevioletred;
+  transition: 1s;
+}
+#home {
+  border-bottom: 2px solid palevioletred;
+  transition: 1s;
+}
+#pro {
+  border-bottom: 2px solid palevioletred;
+  transition: 1s;
+}
+#review {
+  border-bottom: 2px solid palevioletred;
+  transition: 1s;
+}
+#contact {
+  border-bottom: 2px solid palevioletred;
+  transition: 1s;
+}
+/* -----------------------Payment---------------------- */
+.payment {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(215, 212, 212);
+  position: absolute;
+  margin-top: 72%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.payment .box {
+  background-color: rgb(244, 238, 238);
+  width: 240px;
+  height: 80px;
+  margin-left: 20px;
+  display: flex;
+}
+.payment .box img {
+  position: relative;
+  width: 60px;
+  height: 50px;
+  margin: 15px 10px;
+}
+.payment .box .describ {
+  margin: 24px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+/* --------------------------Products------------------------- */
+.product {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  margin-top: 88%;
+}
+.product .title {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.product .title h2,
+span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+.product .title span {
+  color: rgb(230, 73, 125);
+}
+.product .flower {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+.product .flower img {
+  margin-left: 40px;
+  margin-block: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+.product .flower img:hover {
+  cursor: pointer;
+}
+/*--------------------------------Contact Us----------------------------- */
+.contact-us {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  margin-top: 150%;
+  display: flex;
+  justify-content: center;
+}
+.contact-us h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bolds;
+  margin-top: 20px;
+  color: black;
+}
+.contact-us span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bolds;
+  margin-top: 20px;
+  color: rgb(230, 73, 125);
+}
+.contact-us .message {
+  position: absolute;
+  margin: 80px 0;
+  margin-right: 200px;
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  left: 20%;
+}
+.contact-us .message input {
+  margin: 3px;
+  height: 30px;
+  width: 300px;
+  outline: none;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+#input4 {
+  width: 300px;
+  height: 100px;
+}
+#input4 ::placeholder {
+  text-indent: 30px;
+}
+.contact-us button {
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+}
+.contact-us button:hover {
+  background-color: rgb(230, 73, 125);
+  transition: 0.2s;
+}
+.contact-us img {
+  position: absolute;
+  width: 350px;
+  margin-top: 80px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  right: 20%;
+}
+/*--------------------------------Buttom-------------------------------- */
+.bottom {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin-top: 189%;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);
+}
+.bottom1 {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.bottom1 a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: rgb(68, 68, 68);
+}
+.bottom1 a:hover {
+  text-decoration: underline;
+}
+.bottom1 h3 {
+  font-size: 24px;
+}
+.bottom1 img {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: 12%;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.credit {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  margin-top: 205%;
+  text-align: center;
+}
+.credit p {
+  margin-top: 20px;
+}
+.credit span {
+  font-size: 16px;
+  color: rgb(245, 85, 138);
+  font-family: "Times New Roman", Times, serif;
+}
